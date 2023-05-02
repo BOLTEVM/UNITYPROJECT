@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.nextmind.unitysdk": "1.5.1",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.feature.development": "1.0.1",
@@ -11,6 +12,7 @@
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.6.4",
+    "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
     "com.unity.modules.ai": "1.0.0",
@@ -44,5 +46,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "NextMind",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.nextmind.unitysdk"
+      ]
+    }
+  ]
 }
