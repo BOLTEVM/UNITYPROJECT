@@ -20,8 +20,15 @@ public static class IEnumeratorAwaitExtensions
         return GetAwaiterReturnVoid(instruction);
     }
 
+#pragma warning disable CS0436 // Type conflicts with imported type
     public static SimpleCoroutineAwaiter GetAwaiter(this WaitForUpdate instruction)
+#pragma warning restore CS0436 // Type conflicts with imported type
     {
+        if (instruction is null)
+        {
+            throw new ArgumentNullException(nameof(instruction));
+        }
+
         return GetAwaiterReturnVoid(instruction);
     }
 
@@ -63,6 +70,7 @@ public static class IEnumeratorAwaitExtensions
     }
 
     // Return itself so you can do things like (await new WWW(url)).bytes
+    [Obsolete]
     public static SimpleCoroutineAwaiter<WWW> GetAwaiter(this WWW instruction)
     {
         return GetAwaiterReturnSelf(instruction);
@@ -258,11 +266,11 @@ public static class IEnumeratorAwaitExtensions
 
                     if (objectTrace.Any())
                     {
-                        _awaiter.Complete(default(T), new Exception(GenerateObjectTraceMessage(objectTrace), e));
+                        _awaiter.Complete(default, new Exception(GenerateObjectTraceMessage(objectTrace), e));
                     }
                     else
                     {
-                        _awaiter.Complete(default(T), e);
+                        _awaiter.Complete(default, e);
                     }
 
                     yield break;
@@ -282,9 +290,9 @@ public static class IEnumeratorAwaitExtensions
                 // We could just yield return nested IEnumerator's here but we choose to do
                 // our own handling here so that we can catch exceptions in nested coroutines
                 // instead of just top level coroutine
-                if (topWorker.Current is IEnumerator)
+                if (topWorker.Current is IEnumerator enumerator)
                 {
-                    _processStack.Push((IEnumerator)topWorker.Current);
+                    _processStack.Push(enumerator);
                 }
                 else
                 {
