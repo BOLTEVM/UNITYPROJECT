@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Unlit
-    second: {fileID: 2100000, guid: a0cc2bb26cd312a41b4fee9287808a33, type: 2}
+    second: {fileID: 2100000, guid: 17485e587e7c399458f19ee3dab435bc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
