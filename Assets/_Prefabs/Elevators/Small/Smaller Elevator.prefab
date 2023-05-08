@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4859884348139068205}
   - component: {fileID: 5861764334189233080}
   - component: {fileID: 4467018992561084454}
+  - component: {fileID: 5673108327094119308}
   m_Layer: 0
   m_Name: Small elevator base
   m_TagString: Untagged
@@ -85,6 +86,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5673108327094119308
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076054973302692986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6789997418834699588, guid: cc7d960154227014b8fff9352b55b3f4, type: 3}
 --- !u!1 &1398526783052859265
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,6 +200,7 @@ GameObject:
   - component: {fileID: 3207197913902517406}
   - component: {fileID: 8925566518905531127}
   - component: {fileID: 5866262253324682798}
+  - component: {fileID: 8531102261551935960}
   m_Layer: 0
   m_Name: Rail
   m_TagString: Untagged
@@ -257,6 +273,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8531102261551935960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583564397362183524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 991503290360816269, guid: cc7d960154227014b8fff9352b55b3f4, type: 3}
 --- !u!1 &8779775624855527542
 GameObject:
   m_ObjectHideFlags: 0

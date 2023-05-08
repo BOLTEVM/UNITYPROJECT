@@ -7819,6 +7819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Truss
       objectReference: {fileID: 0}
+    - target: {fileID: 1839519474725990121, guid: 532e454063b0b3f4884e107fef2904d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 532e454063b0b3f4884e107fef2904d4, type: 3}
 --- !u!4 &8052191703013991689 stripped
