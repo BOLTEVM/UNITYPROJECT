@@ -6,6 +6,17 @@ public class InteractiveSwitch : MonoBehaviour
 {
     private Animator mAnimtr;
 
+    public void ElevatorUp()
+    {
+
+    }
+
+    public void ElevatorDown()
+    {
+
+    }
+
+
     public void OpenDoor()
     {
         if (mAnimtr != null)
@@ -30,7 +41,10 @@ public class InteractiveSwitch : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
             OpenDoor();
+
+        }
     }
 
     private void OnTriggerExit(Collider other)
