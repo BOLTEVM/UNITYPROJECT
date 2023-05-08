@@ -274,8 +274,16 @@ PrefabInstance:
       value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_FocalLength
+      value: 32.96973
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: orthographic size
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -299,6 +307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+--- !u!20 &570913085 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5542111180780342640, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+  m_PrefabInstance: {fileID: 570913084}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1638412929
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,5 +742,9 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.0089
       objectReference: {fileID: 0}
+    - target: {fileID: 8892271423782290089, guid: 849b61b46c62bcb4c815dd6f8b903372, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 570913085}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 849b61b46c62bcb4c815dd6f8b903372, type: 3}
