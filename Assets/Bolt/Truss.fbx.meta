@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 5f5ef67f4fea46b4886498a9c1e33339
+guid: f053e2f373cebd9478a6195d93a32080
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holder - Assets
+    second: {fileID: 2100000, guid: fcfa715d06637504a8fe00a2dda2710c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_ truss
+    second: {fileID: 2100000, guid: fcfa715d06637504a8fe00a2dda2710c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Unlit
+    second: {fileID: 2100000, guid: 17485e587e7c399458f19ee3dab435bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cone mat
+    second: {fileID: 2100000, guid: 17485e587e7c399458f19ee3dab435bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

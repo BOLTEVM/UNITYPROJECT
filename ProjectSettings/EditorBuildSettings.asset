@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/NextMind SDK/1.5.1/Examples/Hub_VR.unity
-    guid: 282181e38ebf2d64e98ded67e2c52942
+    path: Assets/_Scenes/MainMenu.unity
+    guid: 47a0fb3c0abd7d6438b8bbb7e81755f3
   - enabled: 1
-    path: Assets/Samples/NextMind SDK/1.5.1/Examples/Calibration/Calibration_VR.unity
-    guid: a280f6b773e0fe94cae0ed20d6eab244
-  - enabled: 1
-    path: Assets/Samples/NextMind SDK/1.5.1/Examples/SDKDiscovery/SDKDiscovery_VR.unity
-    guid: 8e71a1ff046200b468f6c7425bbbb159
+    path: Assets/_Scenes/LevelSetup.unity
+    guid: 8179e4cced9a22641b994316e78b94fa
   m_configObjects: {}
