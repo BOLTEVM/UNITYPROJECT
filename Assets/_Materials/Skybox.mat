@@ -65,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: 36091298ae287e848ab430bdbb311aa7, type: 3}
+        m_Texture: {fileID: 8900000, guid: 99043da3cc8f3e747921ab6817424113, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -104,7 +104,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Rotation: 0
+    - _Rotation: 83
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Smootness: 0.078

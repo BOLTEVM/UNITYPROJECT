@@ -140,7 +140,7 @@ Material:
     - _REFLECTIONS_ROUGHNESS: 0.5
     - _REFLECTIONS_WEIGHT: 0.5
     - _ReceiveShadows: 1
-    - _Smoothness: 0.070710674
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -154,7 +154,7 @@ Material:
     - _BaseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _EMISSION_COLOR: {r: 1, g: 0.31267762, b: 0.0037926203, a: 1}
-    - _EmissionColor: {r: 0, g: 1, b: 0.3393314, a: 1}
+    - _EmissionColor: {r: 3.9999995, g: 2.7015705, b: 0, a: 1}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
