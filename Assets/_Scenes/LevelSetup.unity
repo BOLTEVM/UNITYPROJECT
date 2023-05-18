@@ -5639,6 +5639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7937600021402425071, guid: 779e6b9b7d3b47b42888ce5eb0114ebb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4973734387028869240, guid: dcb984d07a44768478f7243e53890778, type: 3}
     - target: {fileID: 8442271667429619514, guid: 779e6b9b7d3b47b42888ce5eb0114ebb, type: 3}
       propertyPath: m_Name
       value: logo
