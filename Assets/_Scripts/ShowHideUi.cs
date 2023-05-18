@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShowHideUi : MonoBehaviour
 {
     public Canvas canvas;
-    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -13,7 +12,6 @@ public class ShowHideUi : MonoBehaviour
             canvas.enabled = true; // Enable the UI element
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
