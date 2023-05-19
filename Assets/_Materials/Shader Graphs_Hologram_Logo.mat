@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Hologram_Logo
+  m_Shader: {fileID: -6465566751694194690, guid: f51c6f18fdbe24242b8eea3cc2529db0, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_ba1e084ec60f4738a1fc48324ba1efa6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4631cc6d7fb979c4db3e9c59aeab14e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanLines:
+        m_Texture: {fileID: 2800000, guid: 516d99477e5c5964fa9677693b75b3e6, type: 3}
+        m_Scale: {x: 64, y: 64}
+        m_Offset: {x: 4.74, y: -4.52}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _NoiseStrength: 9
+    - _NoiseWaves: 2
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _testLerpColor: 1
+    - _testLerpValue: 0.5
+    m_Colors:
+    - _ColorRange: {r: -3, g: -4, b: 0, a: 0}
+    - _Fresnel_Color: {r: 0.60409844, g: 2.9960785, b: 0.07843135, a: 0}
+    - _HologramTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _MainColor: {r: 0, g: 4.5254836, b: 11.313708, a: 0}
+    - _ScrollSpeed: {r: 0, g: 0.2, b: 0, a: 0}
+    - _SubColor: {r: 6.4980187, g: 0, b: 0.57029074, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &4793009243805557421
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
