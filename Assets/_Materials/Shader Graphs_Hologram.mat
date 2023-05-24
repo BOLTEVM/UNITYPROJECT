@@ -50,7 +50,7 @@ Material:
     - _testLerpValue: 0.5
     m_Colors:
     - _ColorRange: {r: -3, g: -4, b: 0, a: 0}
-    - _Fresnel_Color: {r: 28.6606, g: 1.4503677, b: 0.67595744, a: 0}
+    - _Fresnel_Color: {r: 0.7502774, g: 28.660604, b: 3.8032422, a: 0}
     - _HologramTiling: {r: 2, g: 2, b: 0, a: 0}
     - _MainColor: {r: 0.990566, g: 0.2663314, b: 0.6008763, a: 0}
     - _ScrollSpeed: {r: 0, g: 0.2, b: 0, a: 0}
